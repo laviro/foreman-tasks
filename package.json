@@ -1,5 +1,5 @@
 {
-  "name": "foreman_tasks",
+  "name": "foreman-tasks",
   "version": "1.0.0",
   "description": "Foreman Tasks =============",
   "main": "index.js",
