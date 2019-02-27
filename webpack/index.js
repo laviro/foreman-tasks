@@ -1,5 +1,5 @@
 import componentRegistry from 'foremanReact/components/componentRegistry';
-import ForemanTasksApplication from './containers/Application/index';
+import ForemanTasksApplication from './app';
 
 componentRegistry.register({
   name: 'ForemanTasks',
