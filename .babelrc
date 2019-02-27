@@ -4,6 +4,12 @@
     "react"
   ],
   "plugins": [
+    ["module-resolver", {
+      "alias": {
+        "root": ["./"],
+        "foremanReact": "../foreman/webpack/assets/javascripts/react_app"
+      }
+    }],
     "transform-class-properties",
     "transform-object-rest-spread",
     "transform-object-assign",
