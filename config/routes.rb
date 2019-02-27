@@ -23,6 +23,8 @@ Foreman::Application.routes.draw do
       end
     end
 
+    match '/ex_tasks' => 'react#index', :via => [:get]
+
     namespace :api do
       resources :recurring_logics, :only => [:index, :show, :update] do
         member do
