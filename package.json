@@ -81,6 +81,8 @@
     "collectCoverage": true,
     "collectCoverageFrom": [
       "webpack/**/*.js",
+      "!webpack/index.js",
+      "!webpack/test_setup.js",
       "!webpack/**/bundle*",
       "!webpack/stories/**",
       "!webpack/**/*stories.js"
