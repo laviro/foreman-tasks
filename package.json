@@ -89,6 +89,7 @@
       "lcov"
     ],
     "unmockedModulePathPatterns": [
+      "webpack/",
       "react",
       "node_modules/"
     ],
